@@ -1,4 +1,4 @@
-# ghostinthewire
+# ghostinthewires
 
 > *You have nothing to hide. You just have nothing you want to freely give them.*
 
@@ -12,9 +12,9 @@ Your data is a product. Browsing habits, location, communications, associations 
 
 This is not paranoia. This is an accurate reading of publicly documented programs and business models.
 
-The UN Universal Declaration of Human Rights recognizes privacy as a fundamental right. Most of the entities you interact with online do not. ghostinthewire is one way to take that right back in practice rather than in principle.
+The UN Universal Declaration of Human Rights recognizes privacy as a fundamental right. Most of the entities you interact with online do not. ghostinthewires is one way to take that right back in practice rather than in principle.
 
-**ghostinthewire** exists because:
+**ghostinthewires** exists because:
 
 - **Privacy requires deliberate action.** Default configurations are optimized for the vendor, not for you. Every default you accept is a choice you didn't make.
 - **Gentoo over Arch.** Portage packages are maintained by a vetted community. The AUR accepts contributions from anyone. Supply chain attacks are real and the difference in trust model matters.
@@ -25,7 +25,7 @@ The UN Universal Declaration of Human Rights recognizes privacy as a fundamental
 
 ---
 
-## What ghostinthewire installs
+## What ghostinthewires installs
 
 ### Phase 1 — `install.sh` (base system, ~1-2 hours)
 
@@ -76,7 +76,7 @@ All configuration files used by the install, versioned and maintained:
 
 ## Target Hardware
 
-ghostinthewire was developed and tested on a **Dell Precision 7740**:
+ghostinthewires was developed and tested on a **Dell Precision 7740**:
 
 - Intel Core i9-9880H (Coffee Lake, 8c/16t, AVX2, FMA3)
 - 128GB DDR4 RAM
@@ -102,7 +102,7 @@ The installer is designed to be hardware-agnostic with auto-detection where poss
 Boot the Gentoo minimal install ISO, connect to the internet, then:
 
 ```bash
-curl -O https://raw.githubusercontent.com/wakefieldite/ghostinthewire/main/install.sh
+curl -O https://raw.githubusercontent.com/wakefieldite/ghostinthewires/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -110,7 +110,7 @@ chmod +x install.sh
 After first boot into the installed system:
 
 ```bash
-curl -O https://raw.githubusercontent.com/wakefieldite/ghostinthewire/main/setup.sh
+curl -O https://raw.githubusercontent.com/wakefieldite/ghostinthewires/main/setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```
@@ -119,7 +119,7 @@ chmod +x setup.sh
 
 ## Why not just use an existing installer?
 
-Because none of them make the choices this project makes. Most Gentoo installers optimize for getting you to a desktop as fast as possible. ghostinthewire optimizes for getting you to a desktop that an adversary cannot trivially compromise, surveil, or fingerprint — and that you actually understand because you built it.
+Because none of them make the choices this project makes. Most Gentoo installers optimize for getting you to a desktop as fast as possible. ghostinthewires optimizes for getting you to a desktop that an adversary cannot trivially compromise, surveil, or fingerprint — and that you actually understand because you built it.
 
 ---
 
